@@ -2,7 +2,7 @@
   "name": "business-exchange-be",
   "description": "Backend Server for Business Exchnage Platform",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,5 +27,11 @@
   },
   "engines": {
     "node": "16.16.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
