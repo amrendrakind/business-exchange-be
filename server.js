@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.json('Welcome to Business Express Backend Server');
+  res.json('Welcome to Business Express Backend Server: Built on Express JS');
 });
 
 // Running port on 8000
