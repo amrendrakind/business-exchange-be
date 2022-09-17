@@ -14,6 +14,8 @@ app.get('/', (req, res) => {
   res.json('Welcome to Business Express Backend Server');
 });
 
+// Running port on 8000
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
